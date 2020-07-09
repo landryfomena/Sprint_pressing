@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.sprintpressing.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_washOnlyFragment"
+            app:destination="@id/washOnlyFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_home_to_dryClean"
+            app:destination="@id/dryClean"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_home_to_washAndIronFragment"
+            app:destination="@id/washAndIronFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_navigation_home_to_irononlyFragment"
+            app:destination="@id/irononlyFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.sprintpressing.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.sprintpressing.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/washOnlyFragment"
+        android:name="com.example.sprintpressing.ui.washonly.washOnlyFragment"
+        android:label="wash_only_fragment"
+        tools:layout="@layout/wash_only_fragment" />
+    <fragment
+        android:id="@+id/dryClean"
+        android:name="com.example.sprintpressing.ui.dryclean.DryClean"
+        android:label="dry_clean_fragment"
+        tools:layout="@layout/dry_clean_fragment" />
+    <fragment
+        android:id="@+id/washAndIronFragment"
+        android:name="com.example.sprintpressing.ui.washandiron.WashAndIronFragment"
+        android:label="wash_and_iron_fragment"
+        tools:layout="@layout/wash_and_iron_fragment" />
+    <fragment
+        android:id="@+id/irononlyFragment"
+        android:name="com.example.sprintpressing.ui.irononly.IrononlyFragment"
+        android:label="irononly_fragment"
+        tools:layout="@layout/irononly_fragment" />
+</navigation>

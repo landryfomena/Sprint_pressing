@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "508631305533",
+    "firebase_url": "https://sprint-pressing.firebaseio.com",
+    "project_id": "sprint-pressing",
+    "storage_bucket": "sprint-pressing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508631305533:android:8a8f05f5328669353ac954",
+        "android_client_info": {
+          "package_name": "com.example.sprintpressing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508631305533-alneauksigkdv4cr43ssde589kjav995.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sprintpressing",
+            "certificate_hash": "e2b777e43cfd09b383580abe3ac4f76aab178a93"
+          }
+        },
+        {
+          "client_id": "508631305533-0to355bhujp7t8rp30hhspd67qqban6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBplaByJHGUycCKpbXMGPG7jXakgtL5Mo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508631305533-0to355bhujp7t8rp30hhspd67qqban6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

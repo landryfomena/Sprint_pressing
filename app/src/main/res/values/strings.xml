@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sprint pressing</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="wellcome_back">wellcome back</string>
+    <string name="login">Login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="chooseservice"><![CDATA[Choose & Order type of Service, you want from the set below]]></string>
+</resources>
